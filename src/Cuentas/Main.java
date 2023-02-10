@@ -1,6 +1,16 @@
 package Cuentas;
 
+/**
+ * Clase Main Clase principal
+ * @author juanjo
+ * 
+ */
+
 public class Main {
+	/**
+	 * Método Main
+	 * @param args convention
+	 */
 
     public static void main(String[] args) {
         CCuenta cuenta1;
@@ -12,6 +22,11 @@ public class Main {
 
         operativa_cuenta(cuenta1, (float) 3.14159265358979);
     }
+    /**
+     * Metodo operativa_cuenta
+     * @param cuenta1 CCuenta 
+     * @param cantidad float
+     */
 
 	private static void operativa_cuenta(CCuenta cuenta1, float cantidad) {
 		try {
@@ -27,3 +42,5 @@ public class Main {
         }
 	}
 }
+
+
